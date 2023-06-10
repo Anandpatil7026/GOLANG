@@ -1,9 +1,8 @@
 package main
-import {
-    "fmt"
-    "math"
+import "fmt"
+import "math"
 }
-func largestPrimeFactor(n int) {
+func largestPrimeFactor(n int) int {
     largest:=1
     for n%2==0 {
         largest=2
