@@ -1,3 +1,4 @@
+// Largest prime factor of number
 package main
 import "fmt"
 import "math"
